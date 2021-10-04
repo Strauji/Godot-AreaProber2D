@@ -8,7 +8,7 @@ It's pretty straight forward to use:
 - Create a new `AreaProber` object and assign it to a variable
 - Add it as a child of the scene (or other object, it does not really matter as far as i can tell)
 - Create any `CollisionShape2D`object, i usually like to use `CircleShape2D`
-- Set it extents, radius or other delimiting property that the shape may have, in the circle `CircleShape2D` you'll use `.get_shape().set_radius(radius:float)`
+- Set it extents, radius or other delimiting property that the shape may have, in the circle `CircleShape2D` you'll use `.set_radius(radius:float)`
 - Assign the shape to `AreaProber` using `.set_collision_shape(shape:Shape2d)`
 - Optionally you can also configure the probe
 -- For collision mask using `.set_collision_mask(mask:int)`
